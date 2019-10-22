@@ -23,3 +23,18 @@ Consider having separate ratings based on:
   2. Shots
   3. Difference between takeaways and giveaways
 The last two might, I hope, be useful as some kind of ancillary ratings.
+
+Make an R Shiny app to show the ratings across time.
+
+Set up a daily cron job to get the latest data.
+
+Pull the game schedule to see upcoming match ups and the teams ratings. This
+can be used as something of a prediction method.
+
+For ranges, I'm thinking a difference of 200 we should see more overtime and
+shootout games. For every 400 point difference, say the expected goal difference
+increases by one. So a team with rating 1000 facing a team with rating 1800
+is expected to lose by 2 goals. But I'd like to keep the variance high enough,
+so maybe instead of losing by 2, they might lose by 1 to 3 goals. Hockey has
+a large luck component to it, so this should be taken into account perhaps by
+not shrinking the sigma too fast toward zero, or to some higher fixed amount.
