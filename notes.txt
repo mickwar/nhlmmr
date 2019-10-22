@@ -1,0 +1,25 @@
+Notes:
+Use an adapted version of the Elo rating system which takes into account how
+well the winning team outperformed their opponents. A team with a much higher
+rating would be expected to win by more than one point, but teams closer in
+ratings should see games closer to a 1-goal difference.
+
+In the NHL, there are no ties, so the minimum difference between goals is 1.
+
+Pre-season and post-season games should see smaller changes in rating. What
+should the weights be?
+
+At the beginning of new seasons, inflate the sigma for each team to account
+for new team compositions (coaches, players, whatever) and then begin to
+reduce to normal levels. This gives the opportunities for underpeforming teams
+in a previous season to not be penalized too heavily in the current season.
+Meaning, they may have improved. This is also requires that strong teams would
+need to maintain their strength and aren't given a free pass.
+
+I couldn't figure out how to tell whether the games went to overtime/shootout.
+
+Consider having separate ratings based on:
+  1. Goals, i.e. the actual outcome of the game
+  2. Shots
+  3. Difference between takeaways and giveaways
+The last two might, I hope, be useful as some kind of ancillary ratings.
