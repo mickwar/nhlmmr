@@ -38,3 +38,11 @@ is expected to lose by 2 goals. But I'd like to keep the variance high enough,
 so maybe instead of losing by 2, they might lose by 1 to 3 goals. Hockey has
 a large luck component to it, so this should be taken into account perhaps by
 not shrinking the sigma too fast toward zero, or to some higher fixed amount.
+
+Not all seasons had pre-season games.
+
+The data begin after the 2004-2005 lockout. In the following season, the draft
+order was randomized. There was some weighting, but I'm going to assume this
+point marks a suitable starting point to treat each team as equal by assigning
+the same initial rating across teams. When Vegas is introduced, I'll likely
+give them the average rating across the league.
