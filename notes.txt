@@ -58,3 +58,11 @@ the same initial rating across teams. When Vegas is introduced, I'll likely
 give them the average rating across the league.
 
 Show rating change as result of latest game outcome.
+
+Forgot about teams being disbanded or moving locations. In 1996, the Jets moved
+to Phoenix and became the Pheonix Coyotes. In 2014, they were renamed the
+Arizona Coyotes. The Pheonix Coyotes and the Arizona Coyotes have different IDs
+in the API. They will be treated as a new team. In 2011, the Atlanta Thrashers
+became the Winnipeg Jets. They will also be treated as a new team. So basically,
+regardless of how a team (with a new ID) enters into the league, they will be
+treated just as any other new team, such as VGK in 2017.
