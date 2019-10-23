@@ -3,11 +3,18 @@ Use an adapted version of the Elo rating system which takes into account how
 well the winning team outperformed their opponents. A team with a much higher
 rating would be expected to win by more than one point, but teams closer in
 ratings should see games closer to a 1-goal difference.
+(Edit: in the basketball rating system where I used the adapted system I'm
+looking at, if a high-rated team didn't win by a certain margin, their score
+would not increase, but if they won while being less than their expected score,
+they still wouldn't lose points. Perhaps this might not be suitable for pro
+teams and their scores should always be adjusted?)
 
 In the NHL, there are no ties, so the minimum difference between goals is 1.
 
 Pre-season and post-season games should see smaller changes in rating. What
 should the weights be?
+(Edit: pre-season games should see more change than the regular season, and
+post-season games less than than the regular season.)
 
 At the beginning of new seasons, inflate the sigma for each team to account
 for new team compositions (coaches, players, whatever) and then begin to
@@ -46,3 +53,5 @@ order was randomized. There was some weighting, but I'm going to assume this
 point marks a suitable starting point to treat each team as equal by assigning
 the same initial rating across teams. When Vegas is introduced, I'll likely
 give them the average rating across the league.
+
+Show rating change as result of latest game outcome.

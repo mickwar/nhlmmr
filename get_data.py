@@ -11,6 +11,7 @@
 # digit of the specific number gives the round of the playoffs, the 3rd digit
 # specifies the matchup, and the 4th digit specifies the game (out of 7).
 
+# TODO Need to also check whether a game is currently being played
 
 import requests
 import json
