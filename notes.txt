@@ -45,6 +45,8 @@ is expected to lose by 2 goals. But I'd like to keep the variance high enough,
 so maybe instead of losing by 2, they might lose by 1 to 3 goals. Hockey has
 a large luck component to it, so this should be taken into account perhaps by
 not shrinking the sigma too fast toward zero, or to some higher fixed amount.
+(Edit: it seems accounting for the skill range could be done by using the
+Glicko/Glicko-2 rating system https://en.wikipedia.org/wiki/Glicko_rating_system)
 
 Not all seasons had pre-season games.
 
