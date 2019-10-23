@@ -36,7 +36,8 @@ Make an R Shiny app to show the ratings across time.
 Set up a daily cron job to get the latest data.
 
 Pull the game schedule to see upcoming match ups and the teams ratings. This
-can be used as something of a prediction method.
+can be used as something of a prediction method. Can I use the schedule to get
+the actual date the game was played on?
 
 For ranges, I'm thinking a difference of 200 we should see more overtime and
 shootout games. For every 400 point difference, say the expected goal difference
