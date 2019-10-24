@@ -10,6 +10,8 @@ they still wouldn't lose points. Perhaps this might not be suitable for pro
 teams and their scores should always be adjusted?)
 
 In the NHL, there are no ties, so the minimum difference between goals is 1.
+(Edit: Apparently, in previous seasons they did end with ties. Not a problem,
+an equally matched team is expected to tie.)
 
 Pre-season and post-season games should see smaller changes in rating. What
 should the weights be?
