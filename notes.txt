@@ -40,6 +40,8 @@ Set up a daily cron job to get the latest data.
 Pull the game schedule to see upcoming match ups and the teams ratings. This
 can be used as something of a prediction method. Can I use the schedule to get
 the actual date the game was played on?
+(Edit: Use this endpoint https://statsapi.web.nhl.com/api/v1/schedule with
+modifiers for date ranges. Should be able to match game Ids to dates.)
 
 For ranges, I'm thinking a difference of 200 we should see more overtime and
 shootout games. For every 400 point difference, say the expected goal difference
